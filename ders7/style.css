@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+
+    border: 1px solid #ccc;
+    z-index: 1;
+   position: relative;
+}
+.header{
+    width: 66%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 0 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    right: 18%;
+    top: 15px;
+}
+.home2 nav ul{
+  display: flex;
+  gap: 30px;
+}
+.cavia{
+    font-size: 30px;
+    color: white;
+}
+a{
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home2 a:hover{
+    color: red;
+}
+.red{
+    color: red;
+}
+.img img{
+    width: 100%;
+    height: 780px;
+  
+}
+
+.black{
+    width: 43%;
+    height: 780px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.lorem p{
+    color: white;
+    font-size: 50px;
+}
+.black span{
+    color: white;
+}
+.metn{
+    width: 330px;
+    height: 100px;
+    font-size: 20px;
+}
+.box{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+button{
+    width: 160px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: white;
+}
+button:hover{
+color: red;
+}
+.point{
+    position: relative;
+}
+.point span{
+    font-size: 90px;
+    color: red;
+    position: absolute;
+    left: 16px;
+    bottom: 3px;
+}
+.minibox{
+    width: 375px;
+    height: 210px;
+    background: url(https://preview.colorlib.com/theme/caviar/img/bg-img/hero-1.jpg.webp);
+    position: absolute;
+    right: 1px;
+    bottom: 54px;
+}
+.ox{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 355px;
+    bottom: 245px;
+}
+.ox:hover{
+ cursor: pointer;
+ background-color: red;
+ color: rgb(255, 255, 255);
+ transition: 0.5s;
+}
+.picture{
+    width: 75%;
+    height: 730px;
+    margin: 30px auto;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.picture img{
+    width: 540px;
+    height: 443px;
+}
+h1{
+   font-size: 36px;
+   color: black;
+}
+.aboutus p{
+    font-size: 12px;
+}
+.aboutus{
+    width: 475;
+    height: 397.2px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.lorem1{
+    width: 445px;
+    height: 261.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   gap: 30px;
+}
+.lorem1 p{
+    font-size: 15px;
+    color: red;
+}
+.lorem1 span{
+    font-size: 20px;
+}
